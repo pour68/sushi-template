@@ -1,0 +1,42 @@
+:root {
+    --header-height: 3.5rem;
+
+    --primary-color: hsl(19, 64%, 54%);
+    --primary-color-alt: hsl(19, 64%, 52%);
+    --title-color: hsl(19, 16%, 15%);
+    --text-color: hsl(19, 16%, 35%);
+    --text-color-light: hsl(19, 8%, 55%);
+    --body-color: hsl(19, 100%, 96%);
+    --container-color: hsl(19, 100%, 97%);
+
+    --body-font: "Poppins", sans-serif;
+    --title-font: "Lora", serif;
+    --subtitle-font: "Dancing Script", cursive;
+
+    --fs-big: 2.25rem;
+    --fs-xxl: 1.5rem;
+    --fs-xl: 1.25rem;
+    --fs-lg: 1rem;
+    --fs-md: 0.938rem;
+    --fs-sm: 0.813rem;
+    --fs-xs: 0.75rem;
+
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semi-bold: 600;
+
+    --z-fixed: 100;
+    --z-tooltip: 10;
+}
+
+@media (min-width: 1024px) {
+    :root {
+        --fs-big: 4rem;
+        --fs-xxl: 2.25rem;
+        --fs-xl: 1.5rem;
+        --fs-lg: 1.25rem;
+        --fs-md: 1rem;
+        --fs-sm: 0.875rem;
+        --fs-xs: 0.813rem;
+    }
+}
